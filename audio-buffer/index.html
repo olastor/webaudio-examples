@@ -44,7 +44,7 @@ button.onclick = function() {
 
   // Create an empty two second stereo buffer at the
   // sample rate of the AudioContext
-  let frameCount = audioCtx.sampleRate * 2.0;
+  let frameCount = audioCtx.sampleRate * 3600.0;
 
   let myArrayBuffer = audioCtx.createBuffer(channels, frameCount, audioCtx.sampleRate);
 
